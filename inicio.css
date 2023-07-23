@@ -1,0 +1,120 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    top: 0;
+}
+
+body{
+    background-image: url(img/barbiebackgroundDM.jpg);
+    background-size: cover;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 41%;
+}
+
+.h1{
+    font-size: xx-large;
+    color: rgb(47, 49, 49);
+}
+
+.label{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+#inputnome{
+    background-color: rgb(207, 207, 207);
+    border: none;
+    padding: 10px 12px;
+    font-size: 14px;
+    width: 240px;
+    margin-bottom: 26px;
+}
+
+#inputnome:hover{
+    background-color:rgb(238, 161, 247);
+    transition: all 1.3s;
+}
+
+#inputclasse{
+    background-color: rgb(207, 207, 207);
+    border: none;
+    padding: 10px 12px;
+    font-size: 14px;
+    width: 240px;
+}
+
+#inputclasse:hover{
+    background-color:rgb(238, 161, 247);
+    transition: all 1.3s;
+}
+
+.paragrafo{
+    color: rgb(255, 192, 250);
+    font-weight: 600;
+    text-shadow: 0.5px 2px 3px black;
+    text-decoration: none;
+}
+
+.btn{
+    padding: 12px 130px;
+    border-radius: 15px;
+    border: 1px solid rgb(223, 147, 194);
+    background-image: linear-gradient(77deg, rgb(255, 176, 189), rgb(238, 48, 222));
+    color: white;
+    margin-top: 22px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.box2{
+    background-color: rgba(219, 219, 219, 0.459);
+    position: absolute;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    background-image: linear-gradient(33deg, rgb(238, 48, 222), rgb(255, 176, 189));
+    color: rgb(214, 214, 214);
+}
+
+.paragrafo:hover{
+    font-size: 18px;
+    color: rgb(230, 117, 220);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.514);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.box3{
+    background-color: rgba(219, 219, 219, 0.459);
+    position: absolute;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 275px;
+    border-radius: 15px;
+}
+
+#img{
+    border-radius: 100px;
+}
+
+@media (max-width: 808px) {
+    body{
+        left: 25%;
+    }
+}
